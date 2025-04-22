@@ -65,7 +65,7 @@ def test_TC_05_mobile_less_digits():
     print("TC_05 Passed")
 
 def test_TC_06_mobile_more_digits():
-    fill_basic_info("Sarika", "Shrestha", "sarika@gmail.com", "Female", "987654321012")
+    fill_basic_info("Sarika", "Shrestha", "sarika@gmail.com", "Female", "987654321013")
     submit_form()
     print("TC_06 Passed")
 
@@ -175,3 +175,4 @@ for test in all_tests:
         reset_form()
 
 driver.quit()
+
